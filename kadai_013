@@ -1,0 +1,9 @@
+def add_tax(value : int, tax : float) -> float:
+    return value*(1 + tax)
+
+value = 150
+tax = 0.1
+
+sum = add_tax(value,tax)
+
+print(f"料金は{sum}円です.")
